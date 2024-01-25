@@ -17,6 +17,12 @@
             background-color: rgba(0,0,0,0.6);
         }
 
+        .carousel-item img {
+            height: 400px; /* Aqui define o tamanho da imagem */
+            object-fit: cover;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -25,16 +31,13 @@
         <div class="carousel slide" data-bs-ride="carousel" id="carrossel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-bs-interval="1500">
-                    <img src="Apresentação/Carro chuva.jpg" class="d-block w-100" style="max-width: 1380px; max-height: 400px; object-fit: cover; margin: 0 auto;">
-
+                    <img src="Apresentação/Carro chuva.jpg" class="d-block w-100 img-fluid" alt="Imagem do Carrossel">
                 </div>
                 <div class="carousel-item" data-bs-interval="1500">
-                    <img src="Apresentação/Carro fundo montanhoso.jpg" class="d-block w-100" style="max-width: 1380px; max-height: 400px; object-fit: cover; margin: 0 auto;">
-
+                    <img src="Apresentação/Carro fundo montanhoso.jpg" class="d-block w-100 img-fluid" alt="Imagem do Carrossel">
                 </div>
                 <div class="carousel-item" data-bs-interval="1500">
-                    <img src="Apresentação/Carros em fileira.jpg" class="d-block w-100" style="max-width: 1380px; max-height: 400px; object-fit: cover; margin: 0 auto;">
-
+                    <img src="Apresentação/Carros em fileira.jpg" class="d-block w-100 img-fluid" alt="Imagem do Carrossel">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carrossel" data-bs-slide="prev">
